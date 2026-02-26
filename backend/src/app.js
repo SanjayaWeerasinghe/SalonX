@@ -30,6 +30,7 @@ app.use('/api/customers', require('./routes/customer.routes'));
 app.use('/api/services', require('./routes/service.routes'));
 app.use('/api/appointments', require('./routes/appointment.routes'));
 app.use('/api/invoices', require('./routes/invoice.routes'));
+app.use('/api/staff', require('./routes/staff.routes'));
 app.use('/api/dashboard', require('./routes/dashboard.routes'));
 
 // 404 handler - must be after all routes
